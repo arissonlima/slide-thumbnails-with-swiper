@@ -6,6 +6,7 @@
 
 img {
   max-width: 100%;
+  display: block;
 }
 
 .box {
@@ -13,6 +14,15 @@ img {
   width: 100%;
   height: 100vh;
   overflow: hidden;
+}
+.box:before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background-image: linear-gradient(180deg, transparent, #000000);
 }
 .box .slide-imagens {
   width: 100%;
