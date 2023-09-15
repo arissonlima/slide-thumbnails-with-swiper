@@ -2,4 +2,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.box {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.box .slide-imagens {
+  width: 100%;
+  height: 100%;
+}
+.box .slide-imagens img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=main.css.map */
